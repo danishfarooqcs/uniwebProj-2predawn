@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Predawn University Multan | Home</title>
+
+  <meta
+  name="description"
+  content="Welcome to Predawn University Multan. Explore our academic programs, experienced faculty, admissions, campus facilities, student life, and educational opportunities."
+/>
+
+  <meta
+    name="keywords"
+    content="Predawn University, Multan, University, Education, Computer Science, Engineering, Arts, Business, Admissions, Pakistan"
+  />
+  
+
+  <meta name="author" content="Predawn University" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="icon" href="./images.jpg" type="image/jpeg" />
+</head>
+ 
+  <body>
+    <header>
+  <nav>
+
+    <section class="name-logo">
+
+      <img
+        src="./images.jpg"
+        alt="Predawn University Logo"
+        width="150"
+        height="150"
+      />
+
+      <h1>Predawn University Multan</h1>
+
+      <span class="welcome">
+        Empowering Future Leaders Through Excellence in Education
+      </span>
+
+    </section>
+
+    <section class="links">
+      <a href="#about">About</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#courses">Courses</a>
+      <a href="#faculty">Faculty</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </section>
+
+    <button class="admissions-btn">Get Admission</button>
+
+  </nav>
+</header>
+
+<main>
+
+
+  <section class="hero" id="about">
+
+    <section class="about">
+
+      <div class="about-text">
+
+        <h2>Welcome to Predawn University</h2>
+
+        <p>
+          Predawn University Multan is committed to providing world-class
+          education through innovation, research, and practical learning.
+          Our experienced faculty, modern campus, and industry-focused
+          programs help students develop the knowledge and skills needed
+          for successful careers and lifelong learning.
+        </p>
+
+        <button>Explore Programs</button>
+
+      </div>
+
+      <img
+        class="bgimguni"
+        src="./photo-1524178232363-1fb2b075b655.avif"
+        alt="Students studying on the university campus"
+        width="1000"
+        height="600"
+      />
+
+    </section>
+
+  </section>
+
+  <section class="admissions" id="admissions">
+
+    <h2>Admissions Open 2026</h2>
+
+    <p>
+      Start your academic journey with Predawn University. Complete the
+      following steps to apply for admission.
+    </p>
+
+    <ol class="docs">
+
+      <li class="doc">
+        Complete the Online Admission Form
+      </li>
+
+      <li class="doc">
+        Upload Required Documents
+      </li>
+
+      <li class="doc">
+        Pay the Application Fee
+      </li>
+
+      <li class="doc">
+        Appear for the Entry Test (if required)
+      </li>
+
+      <li class="doc">
+        Attend the Admission Interview
+      </li>
+
+      <li class="doc">
+        Receive Admission Confirmation
+      </li>
+
+    </ol>
+
+  </section>
+
+</main>
+    <form action="#">
+
+  <label for="fullname">Full Name</label>
+  <input
+    class="data"
+    type="text"
+    id="fullname"
+    name="fullname"
+    placeholder="Enter your full name"
+    required
+    minlength="3"
+    maxlength="50"
+    autocomplete="name"
+  />
+
+  <label for="fathername">Father's Name</label>
+  <input
+    class="data"
+    type="text"
+    id="fathername"
+    name="fathername"
+    placeholder="Enter your father's name"
+    required
+    autocomplete="name"
+  />
+
+  <label for="email">Email Address</label>
+  <input
+    class="data"
+    type="email"
+    id="email"
+    name="email"
+    placeholder="example@email.com"
+    required
+    autocomplete="email"
+  />
+
+  <label for="phone">Phone Number</label>
+  <input
+    class="data"
+    type="tel"
+    id="phone"
+    name="phone"
+    placeholder="+92 300 1234567"
+    required
+    autocomplete="tel"
+  />
+
+  <label for="cnic">CNIC / B-Form Number</label>
+  <input
+    class="data"
+    type="text"
+    id="cnic"
+    name="cnic"
+    placeholder="35202-1234567-1"
+    required
+  />
+
+  <label for="dob">Date of Birth</label>
+  <input
+    class="data"
+    type="date"
+    id="dob"
+    name="dob"
+    required
+  />
+
+  <label for="gender">Gender</label>
+  <select class="data" id="gender" name="gender" required>
+    <option value="">Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select>
+
+  <label for="address">Home Address</label>
+  <textarea
+    class="data"
+    id="address"
+    name="address"
+    rows="4"
+    placeholder="Enter your complete address"
+    required
+  ></textarea>
+
+  <label for="city">City</label>
+  <input
+    class="data"
+    type="text"
+    id="city"
+    name="city"
+    placeholder="Enter your city"
+    required
+  />
+
+  <label for="province">Province</label>
+  <select class="data" id="province" name="province" required>
+    <option value="">Select Province</option>
+    <option>Punjab</option>
+    <option>Sindh</option>
+    <option>KPK</option>
+    <option>Balochistan</option>
+    <option>Gilgit Baltistan</option>
+    <option>AJK</option>
+    <option>Islamabad</option>
+  </select>
+
+  <label for="country">Country</label>
+  <input
+    class="data"
+    type="text"
+    id="country"
+    name="country"
+    value="Pakistan"
+    readonly
+  />
+
+  <label for="program">Select Program</label>
+  <select class="data" id="program" name="program" required>
+    <option value="">Choose Program</option>
+    <option>BS Computer Science</option>
+    <option>BS Software Engineering</option>
+    <option>BS Information Technology</option>
+    <option>BBA</option>
+    <option>Bachelor of Arts</option>
+    <option>BS Mathematics</option>
+    <option>BS Physics</option>
+  </select>
+
+  <label for="semester">Semester</label>
+  <select class="data" id="semester" name="semester" required>
+    <option value="">Select Semester</option>
+    <option>1st Semester</option>
+    <option>2nd Semester</option>
+    <option>3rd Semester</option>
+    <option>Transfer Student</option>
+  </select>
+
+  <label for="matricmarks">Matric Marks</label>
+  <input
+    class="data"
+    type="number"
+    id="matricmarks"
+    name="matricmarks"
+    placeholder="Out of 1100"
+    min="0"
+    max="1100"
+    required
+  />
+
+  <label for="intermarks">Intermediate Marks</label>
+  <input
+    class="data"
+    type="number"
+    id="intermarks"
+    name="intermarks"
+    placeholder="Out of 1200"
+    min="0"
+    max="1200"
+    required
+  />
+
+  <label for="school">Previous School / College</label>
+  <input
+    class="data"
+    type="text"
+    id="school"
+    name="school"
+    placeholder="Enter institute name"
+    required
+  />
+
+  <label for="guardianphone">Parent / Guardian Phone</label>
+  <input
+    class="data"
+    type="tel"
+    id="guardianphone"
+    name="guardianphone"
+    placeholder="+92 300 1234567"
+    required
+  />
+
+  <label for="photo">Passport Size Photograph</label>
+  <input
+    class="data"
+    type="file"
+    id="photo"
+    name="photo"
+    accept=".jpg,.jpeg,.png"
+    required
+  />
+
+  <label for="resultcard">Matric / Intermediate Result Card</label>
+  <input
+    class="data"
+    type="file"
+    id="resultcard"
+    name="resultcard"
+    accept=".pdf,.jpg,.jpeg,.png"
+    required
+  />
+
+  <label for="terms">
+    <input
+      type="checkbox"
+      id="terms"
+      name="terms"
+      required
+    />
+    I certify that all the information provided is correct.
+  </label>
+
+  <button type="submit">Submit Admission Form</button>
+
+</form>
+    </section>
+   
+    <section class="faculty">
+      <section class="computingfaculty">
+        <div class="teachers">
+          <h2>
+            Computing Faculty
+            <p>Members <i></i></p>
+          </h2>
+          <figure>
+            <img
+              width="250"
+              height="200"
+              src="./sirsaddam.webp"
+              alt="Sir Saddam"
+            />
+            <figcaption class="teachernames">
+              Sir Saddam. <br />
+              A proficient Computing teachers
+              <span class="eduteacher"
+                >Phd ROBOTICS (Chinese institue of Tech Beiging)</span
+              >
+              10 year Education Experience
+              <p>A proficient Computing teacher with a PhD in Robotics <br> from the Beijing Institute of Technology. <br>He has over 10 years of teaching experience <br> and specializes in Artificial Intelligence, <br>Robotics, and Computer Systems.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              height="200"
+              width="250"
+              src="./Mam Aliza.jpg"
+              alt="Mam Aliza"
+            />
+            <figcaption class="teachernames">
+              Mam Aliza <br />
+              A proficient Programer
+              <span class="eduteacher">
+                Phd Ai (American institute of Computing)
+              </span>
+              5 year Coding experience
+              <p>A skilled Programming instructor with a PhD in Artificial Intelligence <br> from the American  Institute of Computing. <br>She has 5 years of coding and teaching experience <br> in Python, C++, and Web Development.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              width="250"
+              height="200"
+              src="./Mam ayesha.jpg"
+              alt="Mam Ayesha"
+            />
+            <figcaption class="teachernames">
+              Mam Ayesha. <br />
+              A proficient Data Science teacher
+              <span class="eduteacher">Phd datascience Huwaee institute</span>
+              7 year Education Experience
+              <p>A professional Data Science educator <br>with a PhD in Data Science from <br>Huawei Institute of Technology. <br> She has 7 years of teaching experience <br> in Data Analytics, Machine Learning, and Statistics.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              height="200"
+              width="250"
+              src="./sir dane.avif"
+              alt="Sir dane"
+            />
+            <figcaption class="teachernames">
+              Sir Dayne<br />
+              A Ethical hacker
+              <span class="eduteacher"> Phd cybersecurity China </span>
+              Google securtiy professional
+              <p>A cybersecurity specialist with a PhD in Cybersecurity and a <br> Google Certified Security Professional certification. <br> He has extensive experience in Ethical Hacking, <br> Network Security, and Digital Forensics.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="otherfaculty">
+        <h3 class="faculty">
+           ARTS FACULTY AND OTHERS
+           <h4>Members</h4>
+        </h3>
+        <figure class="arts">
+          <img height="200" width="250" src="./david.jpg" alt="David">
+          <figcaption class="teachernames">
+            David (Art proficient)
+            <span class="details">
+              David is from Arts dept 
+              10 years experience
+              <p>A talented Arts instructor with over 10 years of experience <br> in Fine Arts, Sketching, and Creative Design. <br> He has guided students in numerous <br> successful art  exhibitions and creative projects.</p>
+            </span>
+          </figcaption>
+        </figure>
+        <figure class="arts">
+          <img height="200" width="250" src="./sir safain arts.jpg" alt="Sir sufain">
+          <figcaption class="teachernames">
+            Sir Sufain 
+            <span class="details">
+              Arts dept professional teacher
+              <p>
+                Sir sufain is from arts dept very good at arts <br>
+                HE has 5 years art and artist experience
+                <br>Made Many arts projects and <br>also sold them very costly
+              </p>
+            </span>
+          </figcaption>
+        </figure>
+        <figure class="arts">
+          <img height="200" width="250" src="./sir suden.webp" alt="Sir Suden">
+          <figcaption>
+            Sir Suden 
+            <span class="details">
+              Math teacher
+              <p>
+                Sir Suden is a very good Math and Stats Teacher. <br>
+                He is very professional <br>
+                He is a good problem Solver 
+                <br>
+                He has 10 years Math experience
+              </p>
+            </span>
+          </figcaption>
+
+        </figure>
+      </section>
+    </section>
+    
+
+    </section>
+    <section class="loca">
+      <h1>Locate US </h1>
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.363613461267!2d71.51302657524539!3d30.226705774832332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b350005a67ea1%3A0xa6bd56763db58ef1!2sPredawn%20Accounting!5e0!3m2!1sen!2s!4v1783576429355!5m2!1sen!2s" width="1000" height="450" style="border:2px solid rgb(112, 23, 222);" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+    <!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        Have questions about admissions, courses, or campus life?
+        Our team is here to help you.
+    </p>
+
+    <div class="contact-info">
+
+        <div class="contact-card">
+            <h3>📍 Address</h3>
+            <p>Bosan Road, Multan, Punjab, Pakistan</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📞 Phone</h3>
+            <p>+92 61 1234567</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📧 Email</h3>
+            <p>info@predawnuniversity.edu</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>🕒 Office Hours</h3>
+            <p>Monday - Friday</p>
+            <p>8:00 AM - 5:00 PM</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <h2>Predawn University</h2>
+
+            <p>
+                Providing quality education, experienced faculty,
+                modern facilities, and a bright future for students.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-courses">
+
+            <h3>Popular Courses</h3>
+
+            <ul>
+                <li>Computer Science</li>
+                <li>Software Engineering</li>
+                <li>Data Science</li>
+                <li>Business Administration</li>
+                <li>Mathematics</li>
+            </ul>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Follow Us</h3>
+
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>LinkedIn</p>
+            <p>YouTube</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="copyright">
+
+        <p>
+            &copy; 2026 Predawn University Multan. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed & Developed by Danish Farooq
+        </p>
+
+    </div>
+
+</footer>
+  </body>
+</html>
