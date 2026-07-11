@@ -46,14 +46,86 @@ body {
   margin-top: 0;
   font-size: 15px;
   color: rgb(182, 81, 236);
-  right: 400px;
 }
 .welcome {
   font-size: larger;
   text-decoration-color: #1a1a1a;
 }
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  display: inline;
+  justify-content: space-between;
+}
+
 .links a {
-  color: blue;
   text-decoration: none;
-  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  top: 0;
+}
+
+.links a:hover {
+  color: blue;
+}
+.link1 {
+  gap: 10px;
+  margin: 20px;
+}
+.link2 {
+  gap: 10px;
+  margin: 20px;
+}
+.admissions-btn {
+  border: 2px solid rgb(99, 181, 236);
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  border-radius: 200px;
+  background-color: rgb(167, 19, 167);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.admissions-btn:hover {
+  color: rgb(183, 0, 255);
+  background-color: white;
+  border: 2px solid rgb(99, 2, 177);
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(135, 80, 247, 0.45);
+}
+.admissions-btn:active {
+  transform: scale(0.96);
+}
+.welcome {
+  text-align: center;
+  margin-left: 250px;
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+}
+.abouts {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.explore-btn {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 200px;
+  border: 2px solid blue;
+  color: purple;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  margin-bottom: 10px;
+  padding: 10px 20px;
 }
